@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family:"Arial";
+    background-color: white;
+}
+.container {
+    padding: 0 15px;
+    margin: 0 auto;    
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+.top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(https://images.unsplash.com/photo-1563639326633-3d331a93af06?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.top-wrapper h2 {
+    opacity: 0.5;
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+.top-wrapper p {
+    opacity: 0.5;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34,49,52,0.7);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.profile-wrapper {
+    height: 350px;
+    padding-bottom: 80px;
+    background-color:rgba(209, 234, 255, 0.329);
+    text-align: center;
+}
+
+.heading {
+    padding-top: 10px;
+    padding-bottom: 50px;
+    color:rgb(0, 0, 0);
+}
+
+.heading h2 {
+    font-weight: normal;
+}
+
+.name {
+    padding:50px 50px;
+    display: flex;
+}
+.name img {
+    width: 200px;
+    padding: 3px;
+    border-radius:50%;
+    background: linear-gradient(to right bottom, #292828, #cac8c9);
+}
+
+.name .text {
+    padding:60px;
+}
+
+.name p {
+    color:#6d6d6d;
+    font-size: 20px;
+}
+
+.profile {
+   float: left;
+   width: 33.3%
+}
+
+.profile img {
+    width: 100px;
+}
+
+.txt-contents {
+    width: 90%;
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 15px;
+    color: #b3aeb5;
+}
+
+.btn-wrapper {
+    text-align: center;
+}
+
+.facebook {
+    background-color: #3b5998;
+    margin-right: 10px;
+}
+
+.btn {
+    padding: 8px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;    
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.fa {
+    margin-right: 5px;
+}
+
+footer p {
+    color: #bebebe;
+    font-size: 10px;
+}
+  
+footer {
+    padding-top: 20px;
+}
